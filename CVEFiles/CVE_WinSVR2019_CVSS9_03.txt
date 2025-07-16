@@ -1,0 +1,27 @@
+CVE	Published	Last Update	Max CVSS Base Score	EPSS Score	CISA KEV Added	Public Exploit Exists	Summary
+CVE-2022-30133	2022-08-09	2023-05-31	9.8	8.12%			Windows Point-to-Point Protocol (PPP) Remote Code Execution Vulnerability
+CVE-2022-29131	2022-05-10	2025-01-02	9.0	4.05%			Windows Lightweight Directory Access Protocol (LDAP) Remote Code Execution Vulnerability
+CVE-2022-29130	2022-05-10	2025-01-02	9.8	4.94%			Windows Lightweight Directory Access Protocol (LDAP) Remote Code Execution Vulnerability
+CVE-2022-29129	2022-05-10	2025-01-02	9.0	4.05%			Windows Lightweight Directory Access Protocol (LDAP) Remote Code Execution Vulnerability
+CVE-2022-29128	2022-05-10	2025-01-02	9.0	4.05%			Windows Lightweight Directory Access Protocol (LDAP) Remote Code Execution Vulnerability
+CVE-2022-26937	2022-05-10	2025-01-02	9.8	68.96%		Potential	Windows Network File System Remote Code Execution Vulnerability
+CVE-2022-26923	2022-05-10	2025-02-24	9.0	91.35%	2022-08-18	Public	Active Directory Domain Services Elevation of Privilege Vulnerability
+CVE-2022-26919	2022-04-15	2023-06-29	9.3	3.02%			Windows Lightweight Directory Access Protocol (LDAP) Remote Code Execution Vulnerability
+CVE-2022-26903	2022-04-15	2023-06-29	9.3	1.61%			Windows Graphics Component Remote Code Execution Vulnerability
+CVE-2022-26826	2022-04-15	2023-06-29	9.0	9.75%			Windows DNS Server Remote Code Execution Vulnerability
+CVE-2022-26825	2022-04-15	2023-06-29	9.0	8.81%			Windows DNS Server Remote Code Execution Vulnerability
+CVE-2022-26824	2022-04-15	2023-06-29	9.0	8.81%			Windows DNS Server Remote Code Execution Vulnerability
+CVE-2022-26823	2022-04-15	2023-06-29	9.0	8.81%			Windows DNS Server Remote Code Execution Vulnerability
+CVE-2022-26815	2022-04-15	2023-06-29	9.0	7.07%			Windows DNS Server Remote Code Execution Vulnerability
+CVE-2022-26813	2022-04-15	2023-06-29	9.0	8.13%			Windows DNS Server Remote Code Execution Vulnerability
+CVE-2022-26812	2022-04-15	2023-06-29	9.0	4.79%			Windows DNS Server Remote Code Execution Vulnerability
+CVE-2022-26811	2022-04-15	2023-06-29	9.0	5.21%			Windows DNS Server Remote Code Execution Vulnerability
+CVE-2022-26809	2022-04-15	2023-06-29	10.0	89.74%		Potential	Remote Procedure Call Runtime Remote Code Execution Vulnerability
+CVE-2022-24541	2022-04-15	2023-06-29	9.3	1.86%			Windows Server Service Remote Code Execution Vulnerability
+CVE-2022-24536	2022-04-15	2023-06-29	9.0	8.13%			Windows DNS Server Remote Code Execution Vulnerability
+CVE-2022-24497	2022-04-15	2023-06-29	9.8	39.06%		Potential	Windows Network File System Remote Code Execution Vulnerability
+CVE-2022-24492	2022-04-15	2023-06-29	9.3	1.86%			Remote Procedure Call Runtime Remote Code Execution Vulnerability
+CVE-2022-24491	2022-04-15	2023-06-29	9.8	42.38%		Potential	Windows Network File System Remote Code Execution Vulnerability
+CVE-2022-23284	2022-03-09	2023-06-29	9.0	9.08%			Windows Print Spooler Elevation of Privilege Vulnerability
+CVE-2022-23270	2022-05-10	2025-01-02	9.3	50.40%			Windows Point-to-Point Tunneling Protocol Remote Code Execution Vulnerability
+

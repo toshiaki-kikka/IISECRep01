@@ -1,0 +1,26 @@
+CVE	Published	Last Update	Max CVSS Base Score	EPSS Score	CISA KEV Added	Public Exploit Exists	Summary
+CVE-2025-21307	2025-01-14	2025-01-24	9.8	11.81%			Windows Reliable Multicast Transport Driver (RMCAST) Remote Code Execution Vulnerability
+CVE-2025-21298	2025-01-14	2025-01-24	9.8	56.25%		Potential	Windows OLE Remote Code Execution Vulnerability
+CVE-2024-49112	2024-12-10	2025-01-14	9.8	82.77%		Potential	Windows Lightweight Directory Access Protocol (LDAP) Remote Code Execution Vulnerability
+CVE-2024-43639	2024-11-12	2024-11-18	9.8	5.37%			Windows KDC Proxy Remote Code Execution Vulnerability
+CVE-2024-43455	2024-09-10	2024-09-13	9.8	3.59%			Windows Remote Desktop Licensing Service Spoofing Vulnerability
+CVE-2024-38240	2024-09-10	2024-09-17	9.8	2.63%			Windows Remote Access Connection Manager Elevation of Privilege Vulnerability
+CVE-2024-38199	2024-08-13	2024-08-15	9.8	8.47%			Windows Line Printer Daemon (LPD) Service Remote Code Execution Vulnerability
+CVE-2024-38140	2024-08-13	2024-08-16	9.8	8.66%			Windows Reliable Multicast Transport Driver (RMCAST) Remote Code Execution Vulnerability
+CVE-2024-38124	2024-10-08	2024-10-22	9.0	0.46%			Windows Netlogon Elevation of Privilege Vulnerability
+CVE-2024-38077	2024-07-09	2024-07-12	9.8	82.35%		Potential	Windows Remote Desktop Licensing Service Remote Code Execution Vulnerability
+CVE-2024-38076	2024-07-09	2024-07-12	9.8	9.83%			Windows Remote Desktop Licensing Service Remote Code Execution Vulnerability
+CVE-2024-38074	2024-07-09	2024-07-12	9.8	8.01%			Windows Remote Desktop Licensing Service Remote Code Execution Vulnerability
+CVE-2024-38063	2024-08-13	2024-08-16	9.8	87.84%		Public	Windows TCP/IP Remote Code Execution Vulnerability
+CVE-2024-30080	2024-06-11	2024-06-12	9.8	15.48%			Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability
+CVE-2024-21416	2024-09-10	2024-09-20	9.8	2.63%			Windows TCP/IP Remote Code Execution Vulnerability
+CVE-2023-38545	2023-10-18	2025-02-13	9.8	19.25%		Potential	This flaw makes curl overflow a heap based buffer in the SOCKS5 proxy\nhandshake.\n\nWhen curl is asked to pass along the host name to the SOCKS5 proxy to allow\nthat to resolve the address instead of it getting done by curl itself, the\nmaximum length that host name can be is 255 bytes.\n\nIf the host name is detected to be longer, curl switches to local name\nresolving and instead passes on the resolved address only. Due to this bug,\nthe local variable that means "let the host resolve the name" could get the\nwrong value during a slow SOCKS5 handshake, and contrary to the intention,\ncopy the too long host name to the target buffer instead of copying just the\nresolved address there.\n\nThe target buffer being a heap based buffer, and the host name coming from the\nURL that curl has been told to operate with.
+CVE-2023-36911	2023-08-08	2024-05-29	9.8	3.24%			Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability
+CVE-2023-36910	2023-08-08	2024-05-29	9.8	3.24%			Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability
+CVE-2023-36903	2023-08-08	2024-05-29	9.8	0.72%			Windows System Assessment Tool Elevation of Privilege Vulnerability
+CVE-2023-36434	2023-10-10	2024-05-29	9.8	2.93%			Windows IIS Server Elevation of Privilege Vulnerability
+CVE-2023-36397	2023-11-14	2024-05-29	9.8	2.73%			Windows Pragmatic General Multicast (PGM) Remote Code Execution Vulnerability
+CVE-2023-36028	2023-11-14	2024-05-29	9.8	0.45%			Microsoft Protected Extensible Authentication Protocol (PEAP) Remote Code Execution Vulnerability
+CVE-2023-35385	2023-08-08	2024-05-29	9.8	2.98%			Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability
+CVE-2023-35367	2023-07-11	2024-05-29	9.8	2.05%			Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+CVE-2023-35366	2023-07-11	2024-05-29	9.8	2.05%			Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability

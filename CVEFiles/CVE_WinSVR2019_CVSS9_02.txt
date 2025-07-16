@@ -1,0 +1,26 @@
+CVE	Published	Last Update	Max CVSS Base Score	EPSS Score	CISA KEV Added	Public Exploit Exists	Summary
+CVE-2023-35365	2023-07-11	2024-05-29	9.8	4.94%			Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+CVE-2023-35349	2023-10-10	2024-05-29	9.8	1.16%			Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability
+CVE-2023-33154	2023-07-11	2024-05-29	9.8	1.05%			Windows Partition Management Driver Elevation of Privilege Vulnerability
+CVE-2023-32057	2023-07-11	2024-05-29	9.8	2.36%			Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability
+CVE-2023-32056	2023-07-11	2024-05-29	9.8	0.84%			Windows Server Update Service (WSUS) Elevation of Privilege Vulnerability
+CVE-2023-32015	2023-06-14	2025-04-08	9.8	2.72%			Windows Pragmatic General Multicast (PGM) Remote Code Execution Vulnerability
+CVE-2023-32014	2023-06-14	2025-04-08	9.8	4.24%			Windows Pragmatic General Multicast (PGM) Remote Code Execution Vulnerability
+CVE-2023-29363	2023-06-14	2025-04-08	9.8	5.86%			Windows Pragmatic General Multicast (PGM) Remote Code Execution Vulnerability
+CVE-2023-28250	2023-04-11	2024-05-29	9.8	5.62%			Windows Pragmatic General Multicast (PGM) Remote Code Execution Vulnerability
+CVE-2023-24943	2023-05-09	2024-05-29	9.8	1.30%			Windows Pragmatic General Multicast (PGM) Remote Code Execution Vulnerability
+CVE-2023-24941	2023-05-09	2024-05-29	9.8	49.52%			Windows Network File System Remote Code Execution Vulnerability
+CVE-2023-23415	2023-03-14	2024-05-29	9.8	3.98%		Potential	Internet Control Message Protocol (ICMP) Remote Code Execution Vulnerability
+CVE-2023-21708	2023-03-14	2024-05-29	9.8	4.72%			Remote Procedure Call Runtime Remote Code Execution Vulnerability
+CVE-2023-21692	2023-02-14	2024-05-29	9.8	32.58%			Microsoft Protected Extensible Authentication Protocol (PEAP) Remote Code Execution Vulnerability
+CVE-2023-21690	2023-02-14	2024-05-29	9.8	22.73%			Microsoft Protected Extensible Authentication Protocol (PEAP) Remote Code Execution Vulnerability
+CVE-2023-21689	2023-02-14	2024-05-29	9.8	29.67%			Microsoft Protected Extensible Authentication Protocol (PEAP) Remote Code Execution Vulnerability
+CVE-2023-21557	2023-01-10	2024-05-29	9.1	0.55%			Windows Lightweight Directory Access Protocol (LDAP) Denial of Service Vulnerability
+CVE-2023-21554	2023-04-11	2024-05-29	9.8	92.09%		Public	Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability
+CVE-2022-35744	2023-05-31	2023-06-08	9.8	13.57%			Windows Point-to-Point Protocol (PPP) Remote Code Execution Vulnerability
+CVE-2022-34722	2022-09-13	2023-04-11	9.8	6.32%			Windows Internet Key Exchange (IKE) Protocol Extensions Remote Code Execution Vulnerability
+CVE-2022-34721	2022-09-13	2023-04-11	9.8	17.75%			Windows Internet Key Exchange (IKE) Protocol Extensions Remote Code Execution Vulnerability
+CVE-2022-34718	2022-09-13	2023-04-11	9.8	84.50%		Potential	Windows TCP/IP Remote Code Execution Vulnerability
+CVE-2022-30190	2022-06-01	2025-01-02	9.3	93.24%	2022-06-14	Public	A remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully exploits this vulnerability can run arbitrary code with the privileges of the calling application. The attacker can then install programs, view, change, or delete data, or create new accounts in the context allowed by the user’s rights.\nPlease see the?MSRC Blog Entry for important information about steps you can take to protect your system from this vulnerability.
+CVE-2022-30141	2022-06-15	2025-01-02	9.3	2.80%			Windows Lightweight Directory Access Protocol (LDAP) Remote Code Execution Vulnerability
+CVE-2022-30136	2022-06-15	2025-01-02	10.0	35.45%		Potential	Windows Network File System Remote Code Execution Vulnerability

@@ -1,0 +1,2 @@
+CVE	Published	Last Update	Max CVSS Base Score	EPSS Score	CISA KEV Added	Public Exploit Exists	Summary
+CVE-2025-3891	2025-04-29	2025-06-06	7.5	1.39%			A flaw was found in the mod_auth_openidc module for Apache httpd. This flaw allows a remote, unauthenticated attacker to trigger a denial of service by sending an empty POST request when the OIDCPreservePost directive is enabled. The server crashes consistently, affecting availability.

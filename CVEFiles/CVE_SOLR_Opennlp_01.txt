@@ -1,0 +1,2 @@
+CVE	Published	Last Update	Max CVSS Base Score	EPSS Score	CISA KEV Added	Public Exploit Exists	Summary
+CVE-2017-12620	2017-10-03	2017-11-02	9.8	1.02%		Potential	When loading models or dictionaries that contain XML it is possible to perform an XXE attack, since Apache OpenNLP is a library, this only affects applications that load models or dictionaries from untrusted sources. The versions 1.5.0 to 1.5.3, 1.6.0, 1.7.0 to 1.7.2, 1.8.0 to 1.8.1 of Apache OpenNLP are affected.
