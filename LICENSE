@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 kikka
+Copyright (c) 2025 toshiaki kikka
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,25 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+---
+
+This project also incorporates data from the Common Vulnerabilities and Exposures (CVE®) list,
+provided by The MITRE Corporation.
+
+© 1997-2025 The MITRE Corporation.
+
+Use of the CVE data is governed by the CVER Terms of Use:
+https://www.cve.org/Legal/TermsOfUse
+
+Permission is granted, free of charge, to use, reproduce, modify, and distribute
+the CVE data, provided that this notice is included in all copies or substantial portions
+of the data or any software that makes use of it.
+
+THE DATA IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE DATA OR THE USE OR OTHER
+DEALINGS IN THE DATA.

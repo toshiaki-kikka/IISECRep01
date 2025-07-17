@@ -1,17 +1,13 @@
-# IISECRep01
+# OSSVulHeatmap.py
 OSSVulHeatmap.pyは、OSSのCVE/CVSSデータを表示するPythonプログラムです。CVEDetails.comのサイトからコピーしたCVEデータをテキストに保存したものを、matplotlib.pyplotを利用して下図のように表示することができます。
 
 <img src="heatmap.png" alt="OSS vulnerabitity CVE/CVSS heatmap" width="500"/>
 
 縦軸はOSS、OS、Library名、横軸は西暦、プロットされている点はCVEが発行された日でCVSSのレベル(0-10)に合わせて色分けしています。これによりどのOSSがどの程度の頻度でどれほどのリスクの脆弱性が発覚しているかを一覧することができます。
 
-本ソースコードに含まれているCVEのデータ(CVEFilesフォルダー下)は
-Apache Web Server(httpd)
-Apache Tomcat
-Apache Solr
-とそれらが利用しているメジャーなOSS、OpenJDK, Windows Serverの過去10年分ののCVEデータを取得、表示しています。
+### 実行方法
 
-実行方法
+本ソースコードに含まれているCVEのデータ(CVEFilesフォルダー下)は
 OSSVulHeatmap.py, CVEFilesフォルダーと配下のデータをダウンロードします。
 以下のコマンドを実行して表示することができます。
 
@@ -19,23 +15,34 @@ OSSVulHeatmap.py, CVEFilesフォルダーと配下のデータをダウンロー
 python OSSVulHeatmap.py
 ```
 
+このサンプルでは、以下のOSS
+- Apache Web Server(httpd)
+- Apache Tomcat
+- Apache Solr
 
-新規のデータの取得、追加、表示方法
-https://www.cvedetails.com/ をブラウザで開きます。
-参照したいOSS、ライブラリー名で検索します。
+とそれらが利用しているOSS。
 
-以下Apache StrutsのCVEファイルの作成例を示します。
-Apache StrutsのCVEのページをブラウザで開きます。
-https://www.cvedetails.com/vulnerability-list/vendor_id-45/product_id-6117/Apache-Struts.html
+- OpenJDK
+- Windows Server
 
-ページ内右上の「Copy」ボタンをクリックします。
-エディターでテキストファイルを開きペーストします。
-ファイルをUTF8フォーマットでCVEFilesフォルダー下に保存します。
-さらにページがある場合は[>]ボタンを押して次のページを開き、同様に「Copy」してファイルにペースト、保存します。
-これらのファイルの名前を仮に Struts_01.txt, Struts_02.txtとします。
+の過去10年分ののCVEデータを取得、表示しています。
 
-OSSVulHeatMap.py 65行目の file_list配列としてデータを追加します。
-以下の2行を追加します。
+### 新規のデータの取得、追加、表示方法
+- https://www.cvedetails.com/ をブラウザで開きます。
+- 参照したいOSS、ライブラリー名で検索します。
+
+以下Apache StrutsのCVEファイルの作成例を示します。<br>
+- Apache StrutsのCVEのページをブラウザで開きます。<br>
+- https://www.cvedetails.com/vulnerability-list/vendor_id-45/product_id-6117/Apache-Struts.html
+
+- ページ内右上の「Copy」ボタンをクリックします。
+- エディターでテキストファイルを開きペーストします。
+- ファイルをUTF8フォーマットでCVEFilesフォルダー下に保存します。
+- さらにページがある場合は[>]ボタンを押して次のページを開き、同様に「Copy」してファ イルにペースト、保存します。
+- これらのファイルの名前を仮に Struts_01.txt, Struts_02.txtとします。
+
+- OSSVulHeatMap.py 65行目の file_list配列としてデータを追加します。
+- 以下の2行を追加します。
 
 ```python
 @dataclass
@@ -61,7 +68,13 @@ python OSSVulHeatMap.py
 
 <img src="heatmapstruts.png" alt="OSS vulnerabitity CVE/CVSS heatmap" width="500"/>
 
+## ライセンス
+OSSVulHeatmap.pyはMITライセンスのものと公開されている、完全なオープンソースソフトウェアです。<br>
 
+本プログラムは、Common Vulnerabilities and Exposures（CVE®）リストのデータを利用しています。
+本データは MITRE Corporation によって提供されており、CVE 利用規約に基づいて使用されています。
+利用規約の詳細については以下をご参照ください：
+https://www.cve.org/Legal/TermsOfUse
 
 
 
