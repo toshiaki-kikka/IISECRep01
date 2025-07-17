@@ -1,0 +1,4 @@
+#OSSVulHeatMap.pyで必要な外部ライブラリー
+pandas
+matplotlib
+mplcursors
