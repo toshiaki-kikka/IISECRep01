@@ -5,10 +5,12 @@ OSSVulHeatMap.pyは、OSSのCVE/CVSSデータを表示するPythonプログラ�
 
 縦軸はOSS、OS、Library名、横軸は西暦、プロットされている点はCVEが発行された日でCVSSのレベル(0-10)に合わせて色分けしています。これによりどのOSSがどの程度の頻度でどれほどのリスクの脆弱性が発覚しているかを一覧することができます。
 
-### 実行方法
+### 動作環境
+このプログラムは以下の環境で動作することを確認しています。
+- Windows 11 Pro Version 24H2. Build 26100.4652
+- python version 3.13.2
 
-OSSVulHeatMap.py, CVEFilesフォルダーと配下のデータをダウンロードします。
-OSSVulHeatMap.pyは外部ライブラリーとして以下を利用しています。
+またOSSVulHeatMap.pyは外部ライブラリーとして以下を利用しています。
 - pandas
 - matplotlib
 - mplcursors
@@ -20,7 +22,10 @@ pip install -r requirements.txt
 
 を実行してインストールすることができます。
 
-その後、以下のコマンドを実行してOSSの脆弱性HeatMapを表示することができます。
+
+### 実行方法
+OSSVulHeatMap.py, CVEFilesフォルダーと配下のデータをダウンロードします。
+以下のコマンドを実行してOSSの脆弱性HeatMapを表示することができます。
 
 ```bash
 python OSSVulHeatMap.py
