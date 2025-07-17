@@ -1,5 +1,5 @@
-# OSSVulHeatmap.py
-OSSVulHeatmap.pyは、OSSのCVE/CVSSデータを表示するPythonプログラムです。CVEDetails.comのサイトからコピーしたCVEデータをテキストに保存したものを、matplotlib.pyplotを利用して下図のように表示することができます。
+# OSSVulHeatMap.py
+OSSVulHeatMap.pyは、OSSのCVE/CVSSデータを表示するPythonプログラムです。CVEDetails.comのサイトからコピーしたCVEデータをテキストに保存したものを、matplotlib.pyplotを利用して下図のように表示することができます。
 
 <img src="heatmap.png" alt="OSS vulnerabitity CVE/CVSS heatmap" width="500"/>
 
@@ -8,11 +8,11 @@ OSSVulHeatmap.pyは、OSSのCVE/CVSSデータを表示するPythonプログラ�
 ### 実行方法
 
 本ソースコードに含まれているCVEのデータ(CVEFilesフォルダー下)は
-OSSVulHeatmap.py, CVEFilesフォルダーと配下のデータをダウンロードします。
+OSSVulHeatMap.py, CVEFilesフォルダーと配下のデータをダウンロードします。
 以下のコマンドを実行して表示することができます。
 
 ```bash
-python OSSVulHeatmap.py
+python OSSVulHeatMap.py
 ```
 
 このサンプルでは、以下のOSS
@@ -69,7 +69,7 @@ python OSSVulHeatMap.py
 <img src="heatmapstruts.png" alt="OSS vulnerabitity CVE/CVSS heatmap" width="500"/>
 
 ## ライセンス
-OSSVulHeatmap.pyはMITライセンスのものと公開されている、完全なオープンソースソフトウェアです。<br>
+OSSVulHeatMap.pyはMITライセンスのものと公開されている、完全なオープンソースソフトウェアです。<br>
 
 本プログラムは、Common Vulnerabilities and Exposures（CVE®）リストのデータを利用しています。
 本データは MITRE Corporation によって提供されており、CVE 利用規約に基づいて使用されています。

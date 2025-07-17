@@ -63,6 +63,9 @@ class OssCVEFiles:
     name_file:  str
 
 file_list = [
+    OssCVEFiles('Struts',    'Struts_01.txt'),
+    OssCVEFiles('Struts',    'Struts_02.txt'),
+
     # ./CVEFiles下にあるファイル名に対応するOSS/OS名とファイル名をペアとして定義する
     # CVE_WinSVR2019_CVSS9_0*.txt(Windows Serer 2019でCVSSが9以上のもののリスト
     #
