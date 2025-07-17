@@ -7,9 +7,20 @@ OSSVulHeatMap.pyは、OSSのCVE/CVSSデータを表示するPythonプログラ�
 
 ### 実行方法
 
-本ソースコードに含まれているCVEのデータ(CVEFilesフォルダー下)は
 OSSVulHeatMap.py, CVEFilesフォルダーと配下のデータをダウンロードします。
-以下のコマンドを実行して表示することができます。
+OSSVulHeatMap.pyは外部ライブラリーとして以下を利用しています。
+- pandas
+- matplotlib
+- mplcursors
+上記ライブラリーをインストールしていない場合は
+
+```bash
+pip install -r requirements.txt
+```
+
+を実行してインストールすることができます。
+
+その後、以下のコマンドを実行してOSSの脆弱性HeatMapを表示することができます。
 
 ```bash
 python OSSVulHeatMap.py
