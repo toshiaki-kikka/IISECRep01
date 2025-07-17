@@ -1,7 +1,8 @@
 # IISECRep01
-OSSのCVE/CVSSデータを表示するPythonプログラムです。CVEDetails.comのサイトからコピーしたCVEデータをテキストに保存したものを、matplotlib.pyplotを利用して下図のように表示することができます。
+OSSVulHeatmap.pyは、OSSのCVE/CVSSデータを表示するPythonプログラムです。CVEDetails.comのサイトからコピーしたCVEデータをテキストに保存したものを、matplotlib.pyplotを利用して下図のように表示することができます。
 
 <img src="heatmap.png" alt="OSS vulnerabitity CVE/CVSS heatmap" width="500"/>
+
 縦軸はOSS、OS、Library名、横軸は西暦、プロットされている点はCVEが発行された日でCVSSのレベル(0-10)に合わせて色分けしています。これによりどのOSSがどの程度の頻度でどれほどのリスクの脆弱性が発覚しているかを一覧することができます。
 
 本ソースコードに含まれているCVEのデータ(CVEFilesフォルダー下)は
@@ -13,7 +14,10 @@ Apache Solr
 実行方法
 OSSVulHeatmap.py, CVEFilesフォルダーと配下のデータをダウンロードします。
 以下のコマンドを実行して表示することができます。
+
+```bash
 python OSSVulHeatmap.py
+```
 
 
 新規のデータの取得、追加、表示方法
@@ -32,6 +36,8 @@ https://www.cvedetails.com/vulnerability-list/vendor_id-45/product_id-6117/Apach
 
 OSSVulHeatMap.py 65行目の file_list配列としてデータを追加します。
 以下の2行を追加します。
+
+```python
 @dataclass
 class OssCVEFiles:
     name_oss:   str
@@ -43,9 +49,15 @@ file_list = [
       :
     OssCVEFiles('WinSVR(9≦CVSS)',       'CVE_WinSVR2019_CVSS9_01.txt'),  
       :
+```
 
+以下のコマンドを実行すると、Strutsが追加された図が表示されます。
+
+
+```bash
 python OSSVulHeatMap.py
-を実行すると Strutsが追加された図が表示されます。
+```
+
 
 <img src="heatmapstruts.png" alt="OSS vulnerabitity CVE/CVSS heatmap" width="500"/>
 
