@@ -1,4 +1,6 @@
 #OSSVulHeatMap.pyで必要な外部ライブラリー
+#pip install -r requirements.txt
+#でインストールすることができる。
 pandas
 matplotlib
 mplcursors
